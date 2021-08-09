@@ -1,0 +1,1 @@
+click on the link and press f12. Applications -> Local Storage
