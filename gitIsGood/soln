@@ -1,0 +1,7 @@
+git checkout <sha commit>
+
+type flag.txt
+
+OR
+
+cat flag.txt
