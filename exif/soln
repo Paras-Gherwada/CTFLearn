@@ -1,1 +1,5 @@
 hexdump -C Computer-Password-Security-Hacker\ -\ Copy.jpg  | head -15 >> temp.txt
+
+OR
+
+strings Computer-Password-Security-Hacker\ -\ Copy.jpg  | grep -i "flag" >> temp.txt
