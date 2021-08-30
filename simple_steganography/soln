@@ -1,0 +1,4 @@
+strings Minions1.jpeg
+(The above cmd gives a strings... we have to find the one which is readable that will be used as passphase)
+steghide extract -sf Minions1.jpeg -xf temp.txt -p <passphrase>
+base64 -d temp.txt
